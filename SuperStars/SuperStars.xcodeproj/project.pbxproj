@@ -14,6 +14,7 @@
 		C0E151AE2677B41800D40F01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0E151AD2677B41800D40F01 /* Assets.xcassets */; };
 		C0E151B12677B41800D40F01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0E151AF2677B41800D40F01 /* LaunchScreen.storyboard */; };
 		C0E151BB2677B91000D40F01 /* SuperStarCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E151BA2677B91000D40F01 /* SuperStarCard.swift */; };
+		C0E151BF2677C04900D40F01 /* SuperStarModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E151BE2677C04900D40F01 /* SuperStarModelController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		C0E151B02677B41800D40F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0E151B22677B41800D40F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0E151BA2677B91000D40F01 /* SuperStarCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperStarCard.swift; sourceTree = "<group>"; };
+		C0E151BE2677C04900D40F01 /* SuperStarModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperStarModelController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,9 +83,26 @@
 		C0E151B92677B8F700D40F01 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C0E151BC2677C02400D40F01 /* Controllers */,
 				C0E151BA2677B91000D40F01 /* SuperStarCard.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		C0E151BC2677C02400D40F01 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C0E151BD2677C02F00D40F01 /* Model Controllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C0E151BD2677C02F00D40F01 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C0E151BE2677C04900D40F01 /* SuperStarModelController.swift */,
+			);
+			path = "Model Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +178,7 @@
 				C0E151A92677B41700D40F01 /* ViewController.swift in Sources */,
 				C0E151BB2677B91000D40F01 /* SuperStarCard.swift in Sources */,
 				C0E151A52677B41700D40F01 /* AppDelegate.swift in Sources */,
+				C0E151BF2677C04900D40F01 /* SuperStarModelController.swift in Sources */,
 				C0E151A72677B41700D40F01 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

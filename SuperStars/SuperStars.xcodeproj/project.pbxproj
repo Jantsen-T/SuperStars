@@ -56,15 +56,23 @@
 		C0E151A32677B41700D40F01 /* SuperStars */ = {
 			isa = PBXGroup;
 			children = (
-				C0E151A42677B41700D40F01 /* AppDelegate.swift */,
-				C0E151A62677B41700D40F01 /* SceneDelegate.swift */,
+				C0E151B82677B60200D40F01 /* Resources */,
 				C0E151A82677B41700D40F01 /* ViewController.swift */,
 				C0E151AA2677B41700D40F01 /* Main.storyboard */,
-				C0E151AD2677B41800D40F01 /* Assets.xcassets */,
 				C0E151AF2677B41800D40F01 /* LaunchScreen.storyboard */,
-				C0E151B22677B41800D40F01 /* Info.plist */,
 			);
 			path = SuperStars;
+			sourceTree = "<group>";
+		};
+		C0E151B82677B60200D40F01 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C0E151A42677B41700D40F01 /* AppDelegate.swift */,
+				C0E151A62677B41700D40F01 /* SceneDelegate.swift */,
+				C0E151AD2677B41800D40F01 /* Assets.xcassets */,
+				C0E151B22677B41800D40F01 /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +296,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25YF96HHP6;
-				INFOPLIST_FILE = SuperStars/Info.plist;
+				INFOPLIST_FILE = SuperStars/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +315,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25YF96HHP6;
-				INFOPLIST_FILE = SuperStars/Info.plist;
+				INFOPLIST_FILE = SuperStars/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

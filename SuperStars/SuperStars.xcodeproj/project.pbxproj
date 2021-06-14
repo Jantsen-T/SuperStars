@@ -13,6 +13,7 @@
 		C0E151AC2677B41700D40F01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0E151AA2677B41700D40F01 /* Main.storyboard */; };
 		C0E151AE2677B41800D40F01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0E151AD2677B41800D40F01 /* Assets.xcassets */; };
 		C0E151B12677B41800D40F01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0E151AF2677B41800D40F01 /* LaunchScreen.storyboard */; };
+		C0E151BB2677B91000D40F01 /* SuperStarCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E151BA2677B91000D40F01 /* SuperStarCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C0E151AD2677B41800D40F01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0E151B02677B41800D40F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0E151B22677B41800D40F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0E151BA2677B91000D40F01 /* SuperStarCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperStarCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		C0E151A32677B41700D40F01 /* SuperStars */ = {
 			isa = PBXGroup;
 			children = (
+				C0E151B92677B8F700D40F01 /* Model */,
 				C0E151B82677B60200D40F01 /* Resources */,
 				C0E151A82677B41700D40F01 /* ViewController.swift */,
 				C0E151AA2677B41700D40F01 /* Main.storyboard */,
@@ -73,6 +76,14 @@
 				C0E151B22677B41800D40F01 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		C0E151B92677B8F700D40F01 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C0E151BA2677B91000D40F01 /* SuperStarCard.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0E151A92677B41700D40F01 /* ViewController.swift in Sources */,
+				C0E151BB2677B91000D40F01 /* SuperStarCard.swift in Sources */,
 				C0E151A52677B41700D40F01 /* AppDelegate.swift in Sources */,
 				C0E151A72677B41700D40F01 /* SceneDelegate.swift in Sources */,
 			);

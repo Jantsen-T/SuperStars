@@ -21,5 +21,6 @@ class Card {
         self.bio = bio
         self.codingPoints = codingPoints
     }
-    
 }
+
+

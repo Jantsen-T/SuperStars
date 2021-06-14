@@ -9,12 +9,12 @@ import UIKit
 
 class SuperStarController {
     
-    static let cards: [Card] = {
-        // Create your own card with its hard coded data
-        
-        
-        
-        
-    }
-}
+//    static let cards: [Card] = {
+//        // Create your own card with its hard coded data
+//
+//
+//
+//
+//    }
+//}
 
